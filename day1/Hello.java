@@ -1,7 +1,13 @@
 package day1;
 
+// 產生 javadoc 指令 javadoc -encoding utf-8 -d ./docs day1/*
+/*
+	產生 javadoc 指令 
+	javadoc -encoding utf-8 -d ./docs day1/*
+*/
 /**
  * 這是我第一個 Java 程式
+ * 
  * 
  * @author 王曉明
  * @version 1.0
