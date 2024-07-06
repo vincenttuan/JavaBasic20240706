@@ -15,7 +15,11 @@ public class Demo6 {
 		// 計算 bmi 值
 		double bmi = w / (h*h);
 
+		// 使用 println 來印出內容
 		System.out.println("身高:" + (h*100) + "cm 體重:" + w + "kg BMI:" + bmi);
 
+		// 使用 printf 來印出內容
+		System.out.printf("身高:%.1fcm 體重:%.1fkg BMI:%.2f\n", (h*100), w, bmi);
+		System.out.printf("身高:%.1fcm 體重:%.1fkg BMI:%.1f\n", (h*100), w, bmi);
 	}
 }
