@@ -12,6 +12,10 @@ public class Demo1 {
 		System.out.println(100 * 90); // = 9000
 		System.out.println(100 / 90); // = 1 (整數相除只會得到商)
 		System.out.println(100 % 90); // = 10 (餘數)
+		
+		System.out.println(0b110); // 二進位
+		System.out.println(0017); // 八進位
+		System.out.println(0xabc); // 十六進位
 	}
 
 }
