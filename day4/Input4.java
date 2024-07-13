@@ -2,7 +2,7 @@ package day4;
 
 import java.util.Scanner;
 
-// 停車場
+// 停車場-停車
 public class Input4 {
 	public static void main(String[] args) {
 		int parking = 0b10101; // 21
