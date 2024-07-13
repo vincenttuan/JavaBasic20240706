@@ -50,6 +50,6 @@ public class Input3 {
 		// 印出 bmr
 		System.out.println("男性正常: 1600~1800 大卡/天");
 		System.out.println("女性正常: 1400~1600 大卡/天");
-		System.out.printf("BMR: %.1f 大卡/天%n", bmr);
+		System.out.printf("BMR: %.3f 大卡/天%n", bmr);
 	}
 }
