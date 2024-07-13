@@ -32,5 +32,31 @@ public class Input6 {
 			default:
 				System.out.println("性別碼錯誤");	
 		}
+
+		// 判斷身分碼 switch-case
+		switch(no3) {
+			case '0':
+			case '1':
+			case '2':
+			case '3':
+			case '4':
+			case '5':
+				System.out.println("在臺灣出生之本籍國民");
+				break;
+			case '6':
+				System.out.println("入籍國民，原為外國人");
+				break;
+			case '7':
+				System.out.println("入籍國民，原為無戶籍國民");
+				break;
+			case '8':
+				System.out.println("入籍國民，原為香港居民或澳門居民");
+				break;
+			case '9':	
+				System.out.println("入籍國民，原為大陸地區居民");
+				break;
+			default:
+				System.out.println("身分碼錯誤");	
+		}
 	}
 }
