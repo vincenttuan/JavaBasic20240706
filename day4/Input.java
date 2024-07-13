@@ -19,7 +19,20 @@ public class Input {
 		double bmi = w / (h*h);
 		System.out.printf("BMI: %.2f%n", bmi);
 
+		// 判斷是否正常 ?
+		if(bmi > 18 && bmi <= 23) {
+			System.out.println("正常");
+		}
 
+		// 判斷是否過重 ?
+		if(bmi > 23) {
+			System.out.println("過重");
+		}
+
+		// 判斷是否過輕 ?
+		if(bmi <= 18) {
+			System.out.println("過輕");
+		}
 	}
 
 }
