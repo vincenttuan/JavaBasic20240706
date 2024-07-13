@@ -12,9 +12,12 @@ public class Input {
 		double h = sc.nextDouble(); // 將使用者在鍵盤上輸入的訊息字串轉 double
 		System.out.print("請輸入體重(kg): ");
 		double w = sc.nextDouble();
-
+		// 印出使用者所輸入的身高與體重
 		System.out.printf("身高: %.1f cm 體重: %.1f kg%n", h, w);
-
+		// 計算 bmi
+		h = h/100; // 將身高換算為公尺
+		double bmi = w / (h*h);
+		System.out.printf("BMI: %.2f%n", bmi);
 
 
 	}
