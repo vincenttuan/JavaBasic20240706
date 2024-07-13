@@ -33,6 +33,12 @@ public class Input {
 		if(bmi <= 18) {
 			System.out.println("過輕");
 		}
+
+		// 根據身高推算正常的體重範圍
+		// 注意: h 必須是公尺
+		double minW = 18.1 * (h*h);
+		double maxW = 23 * (h*h);
+		System.out.printf("正常體重範圍 %.1f ~ %.1f%n", minW, maxW);
 	}
 
 }
