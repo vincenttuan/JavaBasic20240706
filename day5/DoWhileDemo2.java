@@ -12,7 +12,7 @@ public class DoWhileDemo2 {
 		int min = 0, max = 100;
 		do {
 			Scanner sc = new Scanner(System.in);
-			System.out.printf("請在 %d ~ %d 之間輸入一數字:", min, max);
+			System.out.printf("請玩家在 %d ~ %d 之間輸入一數字:", min, max);
 			// 玩家猜數字
 			int userGuess = sc.nextInt();
 			// 判斷玩家使否猜對
@@ -26,6 +26,7 @@ public class DoWhileDemo2 {
 			}
 			//-----------------------------------------------------------
 			// 電腦猜數字
+			System.out.printf("請電腦在 %d ~ %d 之間輸入一數字:", min, max);
 			int pcGuess = random.nextInt(max - min - 1) + min + 1;
 			System.out.printf("電腦猜: %d%n", pcGuess);
 			// 判斷電腦使否猜對
