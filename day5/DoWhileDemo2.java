@@ -24,6 +24,19 @@ public class DoWhileDemo2 {
 				System.out.println("賓果 ! 玩家贏了");
 				break;
 			}
+			//-----------------------------------------------------------
+			// 電腦猜數字
+			int pcGuess = random.nextInt(max - min - 1) + min + 1;
+			System.out.printf("電腦猜: %d%n", pcGuess);
+			// 判斷電腦使否猜對
+			if(pcGuess > ans) {
+				max = pcGuess;
+			} else if(pcGuess < ans) {
+				min = pcGuess;
+			} else {
+				System.out.println("賓果 ! 電腦贏了");
+				break;
+			}
 			
 		} while(true); // ;分號要加
 
